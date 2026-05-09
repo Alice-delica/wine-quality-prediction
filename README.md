@@ -16,7 +16,3 @@ Nilai akurasi 0,58 berarti model berhasil menebak kualitas anggur dengan benar t
 - **Confusion Matrix**
 Menunjukkan bahwa model cenderung memiliki performa yang kuat pada kelas mayoritas, yakni kualitas 6 dan 7, namun gagal total dalam mengenali kelas ekstrem seperti kualitas 4 atau 8 karena tidak adanya prediksi yang berhasil mendarat tepat di diagonal untuk kelas tersebut. Banyaknya kesalahan prediksi pada data dekat (misalnya kualitas 6 yang terdeteksi sebagai 7 atau sebaliknya) mengindikasikan adanya kemiripan karakteristik kimiawi yang sangat tipis antar tingkatan tersebut, serta adanya pengaruh ketidakseimbangan jumlah data (class imbalance) yang membuat model lebih condong menebak nilai yang paling sering muncul dalam dataset pelatihan.
 
-## Struktur Repositori
-- `notebooks/`: Berisi file `.ipynb` dengan penjelasan langkah demi langkah.
-- `data/`: Dataset training dan testing yang digunakan.
-- `output/`: Hasil prediksi final dalam format CSV.
